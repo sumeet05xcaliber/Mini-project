@@ -1,0 +1,49 @@
+.slogan{
+    background-color: aqua;
+    height: 120px;
+    text-align: center;
+    font-size: 40px;
+}
+.navigation{
+    background-color: blue;
+    color: white;
+    height: 20px;
+}
+#about_us{
+    padding: 209px;
+}
+#contact_us{
+    padding: 159px;
+}
+#policies{
+    padding: 211px;
+}
+.announcement{
+    height: 350px;
+    background-color:black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.taskbar{
+    height: 263px;
+    background-color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+}
+#whyli{
+    padding: 100px;
+}
+.lowbar{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+#whatli{
+    padding: 100px;
+}
