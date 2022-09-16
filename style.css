@@ -8,17 +8,14 @@
 .navigation{
     background-color: blue;
     color: white;
-    height: 20px;
+    height: 25px;
     
 }
-#about_us{
-    padding: 201px;
+#Policies{
+    padding: 321px;
 }
-#contact_us{
-    padding: 159px;
-}
-#policies{
-    padding: 211px;
+#customer{
+    padding: 142px;
 }
 .announcement{
     height: 350px;
@@ -37,19 +34,25 @@
 }
 #whyli{
     padding: 100px;
+    font-size: 25px;
 }
 .lowbar{
     text-align: center;
     background-color: yellow;
     color: black;
-    
+    height: 38px;
 }
 #whatli{
     padding: 100px;
-    
+    font-size: 25px;
 }
 #connect{
     font-size: 20px;
+}
+#Thingsknow{
+    
+    padding: 110px;
+    font-size: 25px;
 }
 
 
