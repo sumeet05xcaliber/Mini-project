@@ -43,7 +43,7 @@ body{
     position: absolute;
     width: 143px;
     height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, purple, darkorchid);
     border-radius: 30px;
 }
 .new_acc{
@@ -78,7 +78,7 @@ body{
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, purple, darkorchid);
     border: 0;
     outline: none;
     border-radius: 30px;
