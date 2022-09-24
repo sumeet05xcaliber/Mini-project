@@ -87,19 +87,12 @@
 }
 .faq1{
     text-align: center;
-<<<<<<< HEAD
     cursor: pointer;
-=======
-    
->>>>>>> 58593e0f9187a147ff2d659df901fe06a9602ded
 }
 .faq2{
     text-align: center;
     font-size: 25px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 58593e0f9187a147ff2d659df901fe06a9602ded
 }
 #claim{
     padding: 10px;
@@ -110,7 +103,6 @@
     height:10px
     
 }
-<<<<<<< HEAD
 .dropdown {
     float: left;
     overflow: hidden;
@@ -158,10 +150,5 @@
     margin: 0;
     cursor: pointer;
   }
-=======
-
-
-
->>>>>>> 58593e0f9187a147ff2d659df901fe06a9602ded
 
 
