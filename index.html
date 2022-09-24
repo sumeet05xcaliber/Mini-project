@@ -13,63 +13,127 @@
     </div>
 
     <div class="navigation">
-        <span id="home">
+        <span class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><a href="index.html" style="color: white;">Home</a></button>
+            
+            </span>
+          </span>
+        <!-- <span id="home">
             Home
-        </span>
-        <span id="Policies">
+
+        </span> -->
+        <span class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Policy</button>
+            <span id="myDropdown" class="dropdown-content">
+              <a href="https://www.iciciprulife.com/health-insurance/what-is-health-insurance.html">Health insurance</a><br>
+              <a href="https://www.insuranceopedia.com/definition/1475/death-claim">Death claim</a><br>
+              <a href="#contact">Contact</a>
+            </span>
+          </span>
+        <!-- <span id="Policies">
             
             <label for="Policy">Policy:</label>
-            <select name="Policy" id="Policy">
-                <option value="PHone">Life Insurance</option>
-                <option value="saab">Health Insurance</option>
-                <option value="grev">Death claim</option>
+            <select name="Policy" id="Policy" size="1" onchange="window.location.href=this.value;">
+                <option value="PHone">Select Policy</option>
+                <option value="https://www.iciciprulife.com/health-insurance/what-is-health-insurance.html">Health insurance</option>
+                <option value="https://www.insuranceopedia.com/definition/1475/death-claim">Death claim</option>
                 
             </select>
-        </span>
-        <span id="customer">
+        </span> -->
+
+        <span class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Customer Services</button>
+            <span id="myDropdown" class="dropdown-content">
+              <a href="#">Phone helpline</a><br>
+              <a href="greviance.html" target="_blank">Grievance</a><br>
+              <a href="#contact">Contact</a>
+            </span>
+          </span>
+        <!-- <span class="dropdown">
+            <button class="dropbtn">Customer Services
+                 <i class="fa fa-caret-down"></i>
+            </button>
+            <span class="dropdown-content">
+                <a href="#">Phone helpline</a>
+                <a href="greviance.html">Grievance</a>
+                <a href="#">Link 3</a>
+        </span> -->
+        <!-- <span id="customer"> 
             <label for="Customer serivice">Customer service:</label>
-            <select name="Customer service" id="CustomerS">
-                <option value="PHone">Phone help line</option>
-                <option value="saab">Policy guidelines</option>
-                <option value="grev">Grievence</option>
+            <select name="Customer service" id="CustomerS" size="1" onchange="window.location.href=this.value;">
+                <option value="Service">Select your service</option>
+                <option value="PHone">Phone help line </option>
+                <option value="http://127.0.0.1:5500/greviance.html">Grievence</option>
                 
             </select>
+        </span> -->
+        <span class="signin">
+            <!-- <button onclick="myFunction()" class="dropbtn"><a href="login.html">Sign In</a></button> -->
+            <a href="login.html" style="color: white;">Sign In</a>
+            
         </span>
+        <!-- <span id="logout">
+            Logout <a href=""><img src="download.png" alt="" height="20"></a> 
+        </span> -->
         
-        
-        <span id="login">
-            Sign up / Sign in
-        </span>
     </div>
     <div class="announcement">
         This is announcement section
     </div>  
     <div class="lowbar">
         <span id="Thingsknow">
-            <a href="https://licindia.in/Top-Links/About-Us/Know-About-Your-Life-Insurance">Things You Should Know</a>
+            Things you should know
+            <a href="https://licindia.in/Top-Links/About-Us/Know-About-Your-Life-Insurance"target="_blank">&#8226;</a>
         </span>
         <spand id="whatli">
-            
-            <a href="https://www.iciciprulife.com/insurance-library/insurance-basics/what-is-life-insurance.html"target="_blank">What is life insurance</a>
+            What is life insurance
+            <a href="https://www.iciciprulife.com/insurance-library/insurance-basics/what-is-life-insurance.html"target="_blank">&#8226;</a>
         </spand>
         <span id="whyli">
-            
-            <a href="https://www.iciciprulife.com/life-insurance/life-insurance-importance.html"target="_blank">Why life insurance</a>
+            Why life insurance
+            <a href="https://www.iciciprulife.com/life-insurance/life-insurance-importance.html"target="_blank">&#8226;</a>
         </span>
     </div>
     <div class="taskbar">
-        <span id="connect">
-            Connect with us:
-        </span>
-        <span id="insta">
-            <img src="instaa.webp" alt="" height="20">
             
-        </span>
-        <br>
-        <br>
-       
-        
+            <div class="faq">
+                FAQ
+            </div>
+            <br>
+            <br>
+            <div class="faq0">
+                <span class="benefits">
+                    <a href="https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-you-should-consider-buying-insurance-online"target="_blank" style="color: white;"> Benefits of buying insurance</a>
+                </span>
+                <span id="reasons">
+                    Reasons to buy life insurance <a href="https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/10-reasons-why-you-need-to-invest-in-life-insurance"target="_blank">&#8226;</a>
+                </span> 
+                <span id="needs">
+                    Who needs life insurance the most <a href="https://www.investopedia.com/who-needs-life-insurance-the-most-5075437"target="_blank">&#8226;</a>
+                </span>
+            </div>
+                
+            <br>
+            <br>
+            <br>
+            <div class="faq1">
+                <span id="carry">
+                    How much life insurance should i carry <a href="https://www.investopedia.com/articles/pf/06/insureneeds.asp"target="_blank">&#8226;</a>
+                </span>
+                <span id="factor">
+                    <a href="https://www.fbfs.com/learning-center/8-factors-that-can-affect-life-insurance-premiums"target="_blank">&#8226;</a> Factors that affect life insurance premiums 
+                </span>
+            </div>
+            <br>
+            <br>
+
+            <div class="faq2">
+                <span id="claim">
+                    How do i file insurance claim <a href="https://www.bajajfinserv.in/insights/how-to-file-an-insurance-claim-in-5-easy-steps"target="_blank">&#8226;</a>
+                </span>
+                
+            </div>
+
     </div>
 
 </body>
-</html>
