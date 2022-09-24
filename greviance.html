@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+    <link rel="stylesheet" href="Grievstyle.css">
+</head>
+<body>
+    <div class="container">
+
+   
+    <div>
+        <h1 class="main_head">Register a Grievance</h1>
+        <hr>
+    </div>
+    <div>
+    <span class="fmandatory" style="text-align:right; color:crimson">Fields marked with * are mandatory</span>
+    </div>
+    <form action="/action_page.php">
+
+
+    
+    <div>
+        <span>
+          <h3>Select the Complaint Classification</h3> 
+        </span>
+    </div>
+   <span class="policytype">
+    <label for="policytype">Policy Type:*</label>
+    <select name="PolicyType" id="ptype">
+        <option disabled selected>Select</option>
+        <option value="conLIP">Conventional Life Insurance Policy</option>
+        <option value="HIP">Health Insurance Policy</option>
+        <option value="PP">Pension Policy</option>
+        <option value="ULIP">Unit Linked Insurance Policy</option>
+    </select>
+   </span>
+   <span class="complainttype">
+    <label for="complainttype">Complaint Type:*</label>
+    <select name="ComplaintType" id="ctype">
+        <option disabled selected>Select</option>
+        <option value="DClaim">Death Claims</option>
+        <option value="other">Other</option>
+        <option value="PS">Policy Serving</option>
+        <option value="ProP">Proposal Processing</option>
+        <option value="SClaim">Survival Claims</option>
+        <option value="UBPractice">Unfair Business Practices</option>
+    </select>
+   </span>
+   <div>
+    <h3>Policy Details</h3>
+   </div>
+   <span class="Policyrelation">
+    <label for="Policyrelation">Policy Relation:*</label>
+    <select name="Policyrelation" id="prelation">
+        <option disabled selected>Select</option>
+        <option value="IPolicy">Individual Policy</option>
+        <option value="GPolcy">Group Policy</option>
+    </select>
+   </span>
+   <span class="PolicyNum">
+    <label for="Pnum">Policy Number:*</label>
+  <input type="number" id="pnum" name="PolicyNum">
+   </span>
+   <span class="Bcode">
+    <label for="Bcode">Branch Code</label>
+    <input type="number" id="Bnum" name="BranchNum">
+   </span>
+   <div>
+    <h3>Complaint Details</h3>
+   </div><br>
+   <span class="ComplaintDesc">
+    <label for="CDescription">Description of Complaint:*</label><br>
+    <textarea name="Description" id="Description" cols="100" rows="5" placeholder="Enter description..."></textarea>
+   </span>
+   <div>
+    <h3>Personal Details</h3>
+   </div>
+   <div>
+    <label for="fname">First name:*</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last name:*</label>
+    <input type="text" id="lname" name="lname">
+    <label for="mname">Middle name:</label>
+    <input type="text" id="mname" name="mname"><br><br>
+    <span class="gender">
+        <label for="gender">Gender:*</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <input type="radio" id="other" name="gender" value="other">Other
+    </span><br><br>
+    <span class="address">
+        <label for="address">Address:*</label>
+    <br><textarea name="address" id="address" cols="50" rows="5" placeholder="Enter your address..."></textarea>
+    </span><br><br>
+    <span class="mobile">
+        <label for="mobile">Phone No.*</label>
+    <input type="number" id="PhoneNo" name="PhoneNo">
+    </span><br><br>
+    <span class="email">
+        <label for="email">Email Id:</label>
+    <input type="text" id="email" name="email" placeholder="xyz@gmail.com">
+    </span><br><br>
+    <span class="submit">
+        <input type="submit" value=" SUBMIT ">
+    </span>
+   </div>
+</form>
+</div>
+</body>
+</html>
