@@ -1,53 +1,80 @@
 .slogan{
-    background-color: aqua;
+    background-color:aliceblue;
     height: 200px;
-    text-align: center;
     font-size: 40px;
-    
+    background-image: url("slogan.jpeg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin-left: 1050px;  
 }
+#home{
+    margin-right: 500px;
+} 
 .navigation{
-    background-color: green;
-    color: white;
-    height: 47px;
-    
+    background-color: black;
+    color:white;
+    height: 50px;
+    font-size: 30px;
 }
 #Policies{
-    padding: 321px;
+    margin-right: 700px;
 }
 #customer{
-    padding: 163px;
-}
-.announcement{
-    height: 350px;
-    background-color:black;
-    color: white;
-    font-size: 50px;
-    text-align: center;
+    margin-right: 350px;
+} 
+.btn1{
+    /* margin-left: 10px; */
+    margin-right:2170px;
 }
 *{
     margin: 0;
     padding: 0;
 }
 .taskbar{
-    background-image: url("faq.png");
+    /* background-image: url("faqq.jpg"); */
+    background-color: aliceblue;
     background-size: 100% 100%;
-    height: 259px;
+    height: 350px;
+    color: black;
+}
+img{
+    width: 150%;
+    height: 500px;
+}
+ #slider{
+    width: 1000px;
+    height: 500px;
+    /* margin: 20px auto; */
+    background-color: black;
+    margin-left: 400px;
+  
+}
+button{
+    padding: 20px;
+    border: none;
+    background: #37f;
+    font-size: 30px;
     color: white;
-    
-    
+    cursor: pointer;
+
+}
+.announce{
+    text-align: center;
+    color: red;
 }
 #whyli{
-    padding: 100px;
+    
     font-size: 25px;
 }
 .lowbar{
     text-align: center;
-    background-color: green;
-    color: white;
+    background-color:lightblue;
+    /* color: red; */
     height: 38px;
 }
 #whatli{
-    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-size: 25px;
 }
 #connect{
@@ -55,22 +82,20 @@
 }
 #Thingsknow{
     
-    padding: 110px;
     font-size: 25px;
 }
-/* .benefits{
+.benefits{
     font-size: 25px;
-    padding: 120px;
-} */
+    margin-left: 200px;
+} 
 #reasons{
     font-size: 25px;
-    padding: 58px;
-   
+    margin-left:550px;  
+    margin-right: 400px;
 }
-/* #needs{
-    padding: 93px;
+#needs{
     font-size: 25px;
-} */
+} 
 .faq{
     text-align: center;
     font-size: 40px;
@@ -79,30 +104,29 @@
 }
 #carry{
     font-size: 25px;
-    padding: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+
 }
 #factor{
     font-size: 25px;
-    padding: 10px;
+    
 }
-.faq1{
-    text-align: center;
-    cursor: pointer;
-}
+
 .faq2{
     text-align: center;
     font-size: 25px;
-    cursor: pointer;
 }
 #claim{
     padding: 10px;
 }
 .faq0{
-    text-align: center;
+    /* text-align: center; */
     font-size: 25px;
     height:10px
     
 }
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -121,7 +145,7 @@
   .dropdown-content {
     display: none;
     position: relative;
-    background-color: green;
+    background-color: yellow;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -150,5 +174,7 @@
     margin: 0;
     cursor: pointer;
   }
+
+
 
 
